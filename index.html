@@ -8,6 +8,7 @@
 	<title>Prabhath Manashantha</title>
 	<link rel="icon" type="image/x-icon" href="./Images/profile.png">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="mediaQueries.css">
 
 </head>
 
@@ -30,11 +31,29 @@
 
 </div>
 
+	<!-- <div id="hamburger-nav">
+		<a href="#" class="logo">Prabhath</a>
+		<div class="hamburger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#Home" onclick="toggleMenu()">Home</a></li>	
+				<li><a href="#About" onclick="toggleMenu()">About</a></li>
+				<li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+				<li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+			</div>
+		</div>
+	</div> -->
+
 </nav>
 
 <!-- ........................Home Section........................ -->
 
-<section>
+<section id="profile-section">
 
 <div class="home" id="Home">
 
@@ -68,9 +87,15 @@
 
 	<h1 class="heading-about">About Me</h1>
 
+	<p class="intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi tempore neque laborum, perspiciatis assumenda eaque minima quasi necessitatibus voluptatem cumque.
+		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi tempore neque laborum, perspiciatis assumenda eaque minima quasi necessitatibus voluptatem cumque.
+		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi tempore neque laborum, perspiciatis assumenda eaque minima quasi necessitatibus voluptatem cumque.
+	</p>
+
 <div class="about">
 
-	<h2 class="about-topics">Education</h2>
+	<div class="about-container">
+		<h2 class="about-topics">Education</h2>
 
 	<div class="about-box">
 		<img src="./Images/uok-logo.png" alt-="about-pic2">
@@ -83,13 +108,16 @@
 		<div><h5><i>Studied at </i></h5><h4>Central College - Kuliyapitiya</h4>
 		<p><i>Combined Mathematics, Physics, Chemistry</i></p></div>
 	</div>
+	</div>
 
-	<h2 class="about-topics">Experience</h2>
+	<div class="about-container">
+		<h2 class="about-topics">Experience</h2>
 
 	<div class="about-box">
 		<img src="./Images/fiverr-logo.png" alt-="about-pic3">
 		<div><h5><i>Works at </i></h5><h4>Fiverr</h4>
 		<p><i>As a Freelance Web Developer</i></p></div>
+	</div>
 	</div>
 
 </div>
@@ -297,8 +325,7 @@
 <div class="contact-form">
 	<form action="MAILTO:prabhath.pmh2001@gmail.com" method="post" enctype="text/plain">
 	
-	<input type="text" placeholder="Full Name" required>
-	<input type="email" placeholder="Your Email" required>
+	<input type="text" placeholder="Your Name" required>
 
 	<textarea cols="30" rows="6" placeholder="Your Message"></textarea>
 

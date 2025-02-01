@@ -103,15 +103,39 @@ nav{
 	gap:2rem;
 }
 
+/* #hamburger-nav{
+	display: none;
+}
+
+.hamburger-menu{
+	position: relative;
+	display: inline-block;
+}
+
+.hamburger-icon{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 24px;
+	width: 30px;
+	cursor: pointer;
+} */
+
+
 
 .home{
 	padding-top: 16rem;
 	display: flex;
 	justify-content: center;
-	max-width: 800px;
+	/* max-width: 800px; */
 	gap: 2rem;
-	margin: auto;
+	/* margin: auto; */
 	margin-bottom: 50px;
+}
+
+.home-left{
+	display: flex;
+	margin: auto 0;
 }
 
 .home-left img{
@@ -126,9 +150,10 @@ nav{
 } */
 
 .home-right{
+	align-self: center;
 	text-align: center;
-	margin: auto;
-	align-items: center;
+	/* margin: auto; */
+	/* align-items: center; */
 }
 
 .home-right p{
@@ -199,6 +224,7 @@ nav{
 
 .about-section{
 	padding-top: 150px;
+	margin-bottom: 50px;
 }
 
 
@@ -208,15 +234,24 @@ nav{
 
 }
 
+.about-section .intro{
+	width: 80%;
+	margin: 0 auto 50px;
+	text-align: justify;
+}
+
 .about{
-	display:grid;
-	gap: 2rem;
-	align-items: center;
+	display:flex;
 	justify-content: center;
-	margin: auto;	
+	gap: 6rem;
+}
+
+.about-container{
+	display: block;
 }
 
 .about-box{
+	margin-top: 20px;
 	display:flex;
 	gap: 1rem;
 }
@@ -225,6 +260,7 @@ nav{
 	text-decoration:underline;
 	text-underline-offset: 0.5rem;
 	margin-top: 10px;
+	margin-bottom: 40px;
 }
 
 .about-box p{
@@ -265,7 +301,7 @@ nav{
 	display:grid;
 	justify-content: center;
 	align-items: center;
-	width: 25vw;
+	width: 400px;
 	border: 1px solid #999;
 	padding: 30px 30px 10px;
 	border-radius: 20px;
@@ -280,6 +316,7 @@ nav{
 .skill-box hr{
 	margin-bottom: 25px;
 	opacity: 0.5;
+	z-index: -1;
 }
 
 .skill{
@@ -373,7 +410,7 @@ nav{
 }
 
 .contact-form form{
-	max-width:50em;
+	width: 60%;
 	margin: 1rem auto;
 	text-align:center;
 	margin-bottom: 3em;
@@ -404,7 +441,7 @@ nav{
 }
 
 .footer-section{
-	padding-top: 80px;
+	padding-top: 50px;
 }
 
 .copyright{
