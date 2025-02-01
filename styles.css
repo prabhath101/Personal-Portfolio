@@ -107,7 +107,7 @@ nav{
 .home{
 	padding-top: 16rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	max-width: 800px;
 	gap: 2rem;
 	margin: auto;
@@ -310,10 +310,10 @@ nav{
 
 .projects-container{
 	display:flex;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 3rem;
 	width: 80%;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .project-box{
@@ -412,4 +412,5 @@ nav{
 	padding-bottom: 30px;
 	color: #d1d1d1;
 }
+
 
