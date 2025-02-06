@@ -375,6 +375,10 @@ nav{
 	transform: scale(1.05);
 }
 
+.project-box a{
+	text-decoration: none !important;
+}
+
 .project-box h4{
 	font-size: 16px;
 }
